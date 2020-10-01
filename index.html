@@ -1,0 +1,234 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Calupas Cat</title>
+<link rel="stylesheet" href="css/styles.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+<script>
+	$(document).ready(function(){
+		$(".home_content").slideDown();
+		$(".aboutMe_content").slideUp();
+		$(".ongoingProjects_content").slideUp();
+		$(".archive_content").slideUp();
+		$(".contactMe_content").slideUp();
+		
+		$(".logo").click(function(){
+			$(".home_content").slideDown();
+			$(".aboutMe_content").slideUp();
+			$(".ongoingProjects_content").slideUp();
+			$(".archive_content").slideUp();
+			$(".contactMe_content").slideUp();
+		});
+		
+		$("#aboutMe").click(function(){
+			$(".home_content").slideUp();
+			$(".aboutMe_content").slideDown();
+			$(".ongoingProjects_content").slideUp();
+			$(".archive_content").slideUp();
+			$(".contactMe_content").slideUp();
+		});
+		
+		$("#ongoingProjects").click(function(){
+			$(".home_content").slideUp();
+			$(".aboutMe_content").slideUp();
+			$(".ongoingProjects_content").slideDown();
+			$(".archive_content").slideUp();
+			$(".contactMe_content").slideUp();
+		});
+		
+		$("#archive").click(function(){
+			$(".home_content").slideUp();
+			$(".aboutMe_content").slideUp();
+			$(".ongoingProjects_content").slideUp();
+			$(".archive_content").slideDown();
+			$(".contactMe_content").slideUp();
+		});
+		
+		$("#contactMe").click(function(){
+			$(".home_content").slideUp();
+			$(".aboutMe_content").slideUp();
+			$(".ongoingProjects_content").slideUp();
+			$(".archive_content").slideUp();
+			$(".contactMe_content").slideDown();
+		});
+		
+		$("#home").click(function(){
+			$(".home_content").slideDown();
+			$(".aboutMe_content").slideUp();
+			$(".ongoingProjects_content").slideUp();
+			$(".archive_content").slideUp();
+			$(".contactMe_content").slideUp();
+		});
+	});
+</script>
+
+</head>
+
+<body>
+	<div>
+		<div class="navigatorBar">
+			<div class="clickable">
+				<img src="images/Logo.png" alt="Logo" class="logo">				
+			</div>
+			<div class="clickable navigatorButtons" id="contactMe">Contact Me</div>
+			<div class="clickable navigatorButtons" id="aboutMe">About Me</div>
+			<div class="clickable navigatorButtons" id="ongoingProjects">Ongoing Projects</div>
+			<div class="clickable navigatorButtons" id="archive">Archive</div>
+			<div class="clickable navigatorButtons" id="home">Home</div>
+		</div>
+		
+		<div class="clearMe"></div>
+		
+		<div class="content">
+			<div class="home_content">
+				<div class="header">
+					<img src="images/HomeSymbol.png" alt="home_Symbol" class="header_img">
+					<p class="header_header"><span class="marked">Cat</span>herine <span class="marked">Joy</span> Calupas</p>
+					<p class="header_summary">Student || Artist || Game Designer</p>
+					<p class="header_main">× Welcome to my Portfolio! :) ×</p>
+				</div>
+				
+				<div class="clearMe"></div>
+				
+				<div class="main_content">
+					<div class="main_container">
+						<img src="images/Violin_Calupas.jpg" alt="Image" class="main_img">
+					</div>
+					<div class="main_container">
+						<img src="images/Artbattle_Calupas_Zwischenstand.jpg" alt="Image" class="main_img">
+					</div>
+					<div class="main_container">
+						<img src="images/Razor PromoTitle.jpg" alt="Image" class="main_img">
+					</div>
+					
+					<div class="main_container">
+						<img src="images/Screenshot_CharacterSelection.jpg" alt="Image" class="main_img">
+					</div>
+					<div class="main_container">
+						<img src="images/Calupas_Weapon.png" a="Image" class="main_img">
+					</div>
+					<div class="main_container">
+						<img src="images/Halloween.jpg" a="Image" class="main_img">
+					</div>
+					
+					<div class="main_container">
+						<img src="images/Header_Calupas_Catherine.jpg" alt="Image" class="main_img">
+					</div>
+					<div class="main_container">
+						<img src="images/Header_Calupas_Catherine2.jpg" alt="Image" class="main_img">
+					</div>
+					<div class="main_container">
+						<img src="images/Calupas_Baum.jpg" a="Image" class="main_img">
+					</div>
+				</div>
+
+			</div>
+			<div class="archive_content">
+				<div class="header">
+					<img src="images/ArchiveSymbol.png" alt="archive_Symbol" class="header_img">
+					<p class="header_header"><span class="marked">A</span>rchive</p>
+					<p class="header_summary">Art || 3D Modelling || Games</p>
+					<p class="header_main">× Finished Work! ×</p>
+				</div>
+				
+				<div class="clearMe"></div>
+				
+				<div class="main_content">
+					<div class="main_container">
+						<img src="images/Violin_Calupas.jpg" alt="Image" class="main_img">
+					</div>
+					<div class="main_container">
+						<img src="images/Artbattle_Calupas_Zwischenstand.jpg" alt="Image" class="main_img">
+					</div>
+					<div class="main_container">
+						<img src="images/Razor PromoTitle.jpg" alt="Image" class="main_img">
+					</div>
+					
+					<div class="main_container">
+						<img src="images/Screenshot_CharacterSelection.jpg" alt="Image" class="main_img">
+					</div>
+					<div class="main_container">
+						<img src="images/Calupas_Weapon.png" a="Image" class="main_img">
+					</div>
+					<div class="main_container">
+						<img src="images/Halloween.jpg" a="Image" class="main_img">
+					</div>
+					
+					<div class="main_container">
+						<img src="images/Header_Calupas_Catherine.jpg" alt="Image" class="main_img">
+					</div>
+					<div class="main_container">
+						<img src="images/Header_Calupas_Catherine2.jpg" alt="Image" class="main_img">
+					</div>
+					<div class="main_container">
+						<img src="images/Calupas_Baum.jpg" a="Image" class="main_img">
+					</div>
+				</div>
+			</div>
+			<div class="ongoingProjects_content">
+				<div class="header">
+					<img src="images/ongProjSymbol.png" alt="ongoingProjects_Symbol" class="header_img">
+					<p class="header_header"><span class="marked">On</span>going <span class="marked">Proj</span>ects</p>
+					<p class="header_summary">Art || 3D Modelling || Games</p>
+					<p class="header_main">× Still in Progress ... ×</p>
+				</div>
+				This Page
+			</div>
+			<div class="aboutMe_content">
+				<div class="header">
+					<img src="images/Profil.png" alt="profil" class="header_img">
+					<p class="header_header"><span class="marked">Cat</span>herine <span class="marked">Joy</span> Calupas</p>
+					<p class="header_summary">Student || Artist || Game Designer</p>
+					<p class="header_main">× About Me ×</p>
+				</div>
+				
+				<div>
+					<h1>Ausbildungen</h1>
+					<li>VS Graf-Starhemberg-Gasse (heute: GEPS - VS Waltergasse): 2007 - 2011</li>
+					<li>BRG 4 Waltergasse: 2011 - 2015</li>
+					<li>HTBLVA Spengergasse: ab 2015</li>
+					
+					<h1>Fähigkeiten</h1>
+					<li>Sprachen:</li>
+					<li>Deutsch – fließend</li>
+					<li>Englisch – B1</li>
+					<li>Computerkenntnisse:</li>
+					<li>MS Office 365 – sehr gute Kenntnisse in Word, Powerpoint und Excel</li>
+					<li>Autodesk Maya 2015 – gute Kenntnisse</li>
+					<li>Adobe Photoshop – gute Kenntnisse</li>
+					<li>Adobe Illustrator – Grundkenntnisse</li>
+					<li>Programmieren C# – Grundkenntnisse</li>
+					
+					<h1>Interessen</h1>
+					<p>Malerei, Grafik (Zeichnen), Digitale Kunst, Game Design, Programmieren</p>
+				</div>
+			</div>
+			<div class="contactMe_content">
+				<div class="header">
+					<img src="images/ContactSymbol.png" alt="Contact_Symbol" class="header_img">
+					<p class="header_header"><span class="marked">Contact</span> Me</p>
+					<p class="header_summary">E-Mail || Skype || Instagram</p>
+					<p class="header_main">× Available ×</p>
+				</div>
+				
+				<div>
+					<h1>E-Mail</h1>
+					<p>cat.calupas@gmail.com</p>
+					<h1>Skype</h1>
+					<p>catherine.696</p>
+					<h1>Instagram</h1>
+					<a href="https://www.instagram.com/catjoyc/">@catjoyc</a>
+				</div>
+			</div>
+		</div>
+		
+		<div class="clearMe"></div>
+		
+		<div class="footer">
+			
+		</div>
+	</div>
+</body>
+</html>

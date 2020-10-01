@@ -1,0 +1,141 @@
+@charset "utf-8";
+/* CSS Document */
+
+*
+{
+	margin: 0px;
+	padding: 0px;
+	
+	font-family: Arial;
+}
+
+.marked
+{
+	color: #742f4c;
+}
+
+.clickable
+{
+	/*sets Opacity down, when hovering above it*/
+}
+
+.clearMe
+{
+	clear: both;
+}
+
+div.clickable:hover
+{
+	opacity: 0.6;
+}
+
+.navigatorBar
+{
+	background: #FFFFFF;
+	color: #742f4c;
+	
+	border-bottom: solid;
+	border-width: thin;
+	border-color:#D49BBD;
+	
+	height: 40px;
+	
+	padding: 15px 200px;
+}
+
+.logo
+{
+	height: 40px;
+	width: 140px;
+	
+	float: left;
+}
+
+.navigatorButtons
+{
+	font-size: 20px;
+	padding: 10px;
+	
+	float: right;
+}
+
+#aboutMe{}
+#ongoingProjects{}
+#archive{}
+#contactMe{}
+#home{}
+
+.content
+{
+	background:#F1F1F1;
+	
+	padding: 10px 200px;
+}
+
+.header
+{
+	height: 160px;
+	
+	padding: 50px 0px;
+}
+
+.header_img
+{
+	height: 160px;
+	width: 160px;
+	
+	float: left;
+	
+	padding: 0px 100px;
+}
+
+.header_header
+{
+	font-size: 35px;
+	padding: 15px 0px;
+}
+
+.header_summary
+{
+	font-size: 20px;
+	padding-bottom: 15px;
+}
+
+.header_main
+{
+	font-size: 20px;
+	font-weight: bold;
+}
+
+.main_content
+{
+	height: 1100px;
+}
+
+.main_container
+{	
+	float: left;
+	
+	padding: 5px;
+	
+	width: 30%;
+}
+
+.main_img
+{
+	width: 100%;
+}
+
+.footer
+{
+	background: #FFFFFF;
+	color: #742f4c;
+	
+	border-top: solid;
+	border-width: thin;
+	border-color:#D49BBD;
+	
+	height: 5px;
+	
+	padding: 15px 200px;
+}
